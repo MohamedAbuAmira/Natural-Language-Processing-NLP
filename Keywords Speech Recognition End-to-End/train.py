@@ -96,7 +96,7 @@ def build_model(input_shape, loss="sparse_categorical_crossentropy", learning_ra
     tf.keras.layers.Dropout(0.3)
 
     # softmax output layer
-    model.add(tf.keras.layers.Dense(10, activation='softmax'))
+    model.add(tf.keras.layers.Dense(29, activation='softmax'))   # no the classes (29 words)
 
     optimiser = tf.optimizers.Adam(learning_rate=learning_rate)
 
