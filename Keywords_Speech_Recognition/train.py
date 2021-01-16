@@ -161,7 +161,7 @@ def plot_history(history):
     axs[1].legend(loc="upper right")
     axs[1].set_title("Loss evaluation")
 
-    plt.show()
+    #plt.show()   # I comment this beacuse  I work on colab, colab do not send pics through the server
 
 
 def main():
