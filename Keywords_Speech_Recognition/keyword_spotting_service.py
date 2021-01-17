@@ -15,12 +15,36 @@ class _Keyword_Spotting_Service:
 
     model = None
     _mapping = [
-            "bed","nine", "one","yes", "happy", 
-             "eight", "go", "down", "left", "up",
-             "four", "wow", "sheila", "cat", "stop", 
-             "bird", "house", "five", "tree", "three", 
-             "off", "marvin", "zero", "dog", "no", 
-             "seven", "two", "on", "right", "six"
+        "bed",
+        "nine",
+        "one",
+        "yes",
+        "happy",
+        "eight",
+        "go",
+        "down",
+        "left",
+        "up",
+        "four",
+        "wow",
+        "sheila",
+        "cat",
+        "stop",
+        "bird",
+        "house",
+        "five",
+        "tree",
+        "three",
+        "off",
+        "marvin",
+        "zero",
+        "dog",
+        "no",
+        "seven",
+        "two",
+        "on",
+        "right",
+        "six"
     ]
     _instance = None
 
